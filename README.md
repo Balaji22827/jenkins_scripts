@@ -23,4 +23,4 @@ copy above key on gituhb ssh UI
 ssh-keygen -t ed25519 -C "balaji22827@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
-copy pub key
+copy pub key.
