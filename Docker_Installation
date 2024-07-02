@@ -12,3 +12,8 @@ reboot (2-3 min to reboot and restart) --> login via ssh command
 docker version
 docker image ls 
 docker ps
+
+#to login to ur dokcerhub account
+docker login 
+#it will ask for user and password
+
