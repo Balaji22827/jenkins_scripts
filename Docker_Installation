@@ -12,7 +12,8 @@ reboot (2-3 min to reboot and restart) --> login via ssh command
 docker version
 docker image ls 
 docker ps
-docker pull imagenames
+docker pull imagenames 
+docker pull grafana/grafana
 
 #to login to ur dokcerhub account
 docker login 
