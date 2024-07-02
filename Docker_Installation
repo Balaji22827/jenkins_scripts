@@ -1,0 +1,14 @@
+sudo apt update
+sudo apt install docker.io
+#To check the docker process is running or not
+systemctl status docker 
+
+#docker runs with root user or with sudo on the normal user
+
+#to give permissions to the vm-user
+sudo usermod -aG docker username  (restrt the vm to get tha chnages reflected)
+reboot (2-3 min to reboot and restart) --> login via ssh command
+
+docker version
+docker image ls 
+docker ps
