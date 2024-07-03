@@ -1,9 +1,9 @@
 pipeline {
     agent any
     
-    environment {
-        doccker_pass = credentials('docker_password')
-    }
+   // environment {
+   //     doccker_pass = credentials('docker_password')
+    //}
 
     stages {
         
@@ -47,14 +47,14 @@ pipeline {
             }
         }
         
-        stage('step:4 docker image push'){
-            steps{
+        //stage('step:4 docker image push'){
+          //  steps{
 
-                    sh "docker login -u balajimo195 -p ${doccker_pass}"
-                    sh "docker push balajimo195/myapp:v6"
+                    //sh "docker login -u balajimo195 -p ${doccker_pass}"
+                    //sh "docker push balajimo195/myapp:v6"
           
-            }
-        }
+            //}
+       // }
         
         
     }
